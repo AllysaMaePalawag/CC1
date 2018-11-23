@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html>
+
+<title>PERSONAL WEBSITE</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+html {
+  scroll-behavior: smooth;
+}
+footer {
+  position: left;
+  clear: both;
+  background-color: rgba(255,255,255, 0.4); /* Fallback color */
+  text-align:center;
+  height: 50px;	
+  line-height: 50px;
+  font-size: 100%;
+  margin-left:-100%;
+  margin-right:-100%;
+}
+h1,h3,h4,h5,h6 {font-family: "Courier New", Courier, monospace;
+font-size: 25px;
+font-weight: bold;}
+a,p,h2{font-family: "Courier New", Courier, monospace;
+font-size: 18px;
+}
+.w3-row-padding img {margin-bottom: 12px}
+/* Set the width of the sidebar to 120px */
+ .navbar {
+  width: 100%;
+  background-color: transparent;
+  position: fixed;
+  margin-top: 0%;
+  height: 12px;
+  float: right;
+  color: white;
+}
+ .navbar:hover{
+  color: rgb(211,211,211);
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+	
+	
+}
+
+body{
+ background-image: url("bak.gif");
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-position: center;
+ 
+}
+
+/* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
+/* Remove margins from "page content" on small screens */
+@media only screen and (max-width: 600px) {#main {margin-left: 0}}
+</style>
+
+<!-- Icon Bar (Sidebar - hidden on small screens) -->
+<nav class="navbar" float= "right">
+  <!-- Avatar image in top left corner -->
+  
+  <a href="#contact" class="w3-bar-item w3-button w3-padding-medium" style= "float: right;">
+    <p><i class="material-icons" style="font-size:20px">local_phone</i>
+    CONTACT</p>
+  </a>
+  
+  <a href="#photos" class="w3-bar-item w3-button w3-padding-medium" style= "float: right;">
+    <p><i class="material-icons" style="font-size:20px">local_see</i>
+    PHOTOS</p>
+  </a>
+  
+  <a href="#about" class="w3-bar-item w3-button w3-padding-medium" style= "float: right;">
+    <p><i class="material-icons" style="font-size:20px">account_circle</i>
+    ABOUT</p>
+  </a>
+  
+  <a href="#" class="w3-bar-item w3-button w3-padding-medium" style= "float: right;">
+    <p><i class="material-icons" style="font-size:20px">home</i> HOME</p>
+  </a>
+</nav>
+
+<!-- Navbar on small screens (Hidden on medium and large screens) -->
+<div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
+  <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
+    <a href="#" class="w3-bar-item w3-button" style="width:25% !important">HOME</a>
+    <a href="#about" class="w3-bar-item w3-button" style="width:25% !important">ABOUT</a>
+	<a href="#contact" class="w3-bar-item w3-button" style="width:25% !important">BUCKET LIST</a>
+    <a href="#photos" class="w3-bar-item w3-button" style="width:25% !important">PHOTOS</a>
+    <a href="#contact" class="w3-bar-item w3-button" style="width:25% !important">CONTACT</a>
+  </div>
+</div>
+
+<!-- Page Content -->
+<div class="w3-padding-large" id="main">
+  <!-- Header/Home -->
+  <header class="w3-container w3-padding-32 w3-center" style= "color: white" id="home">
+  <img src="247252754003212.png" alt="Allysa" style="float:left;width:200px;height:200px; border-radius: 100%;">
+  <br>
+    <h2 class="w3-jumbo">A SIMPLE WEBSITE BIOGRAPHY</h2>
+	<hr style="width:1180px" class= "center">
+	<hr style="width:1180px" class= "center">
+	<img src="ME.jpg" alt="Allysa" style="width:500px;height:500px; border-radius: 100%;" class="center">
+  </header>
+
+  <!-- About Section -->
+  <div class="w3-content w3-justify w3-text-white w3-padding-64 bg" id="about">
+  
+    <h1>A short information about me:</h1>
+    <hr style="width:1000px" class="w3-opacity">
+    <p> I'm Allysa Mae Palawag, a BSIT student, studying at the University of the Cordilleras.
+</p>
+    <p>I guess you're here to know a little bit about me, huh? I'm not at all that good at talking about myself, but i'll give it a shot by linking stuff
+	about my school, projects, my buckelist and my resume.
+</p>
+	
+	
+	<a href="file:///G:/TEMP/School.html" class="w3-button w3-light-grey center" style ="color:white; ">ABOUT MY SCHOOL</a>
+	<br>
+	<a href="https://github.com/AllysaMaePalawag" class="w3-button w3-light-grey center" style ="color:white;">MY PORTFOLIO</a>
+	<br>
+	<a href="file:///G:/TEMP/BucketList.html" class="w3-button w3-light-grey center" style ="color:white;">MY BUCKETLIST</a>
+	<br>
+	<a href="file:///G:/TEMP/RESUME.pdf" class="w3-button w3-light-grey center" style ="color:white;">VIEW MY RESUME</a>
+<br>
+
+<br>
+    <h2>Interest</h2>
+    <hr style="width:1000px" class="w3-opacity">
+    
+    <p class="w3-wide">Horror, Gore and Thriller</p>
+    <div class="w3-white">
+      <div class="w3-dark-grey" style="height:28px;width:95%"></div>
+    </div>
+    <p class="w3-wide">Art and Literature</p>
+    <div class="w3-white">
+      <div class="w3-dark-grey" style="height:28px;width:85%"></div>
+    </div>
+    <p class="w3-wide">Dark Aesthetic</p>
+    <div class="w3-white">
+      <div class="w3-dark-grey" style="height:28px;width:80%"></div>
+    </div><br>
+
+    
+<br>
+	
+	
+
+  <!-- Portfolio Section -->
+  <div class="w3-padding-64 w3-content" id="photos">
+    <h2 class="w3-text-light-grey">Favorite Art Works</h2>
+    <hr style="width:1000px" class="w3-opacity">
+
+    <!-- Grid for photos -->
+    <div class="w3-row-padding" style="margin:0 -16px">
+      <div class="w3-half">
+        <img src="fav3.gif" style="width:100%">
+        <img src="fav1.jpg" style="width:100%">
+        <img src="fav3.jpg" style="width:100%">
+      </div>
+
+      <div class="w3-half">
+        <img src="fav2.jpg" style="width:100%">
+        <img src="fav5.jpg" style="width:100%">
+		<hr>
+		<br>
+ <pre><i style= "font-size: 30px">"Good art isn't all about 
+ the looks, it's what makes
+ us feel"</i></pre>
+ <br>
+ <hr>
+      </div>
+    <!-- End photo grid -->
+    </div>
+  <!-- End Portfolio Section -->
+  </div>
+
+  <!-- Contact Section -->
+  <div class="w3-padding-64 w3-content w3-text-white" id="contact">
+    <h2 class="w3-text-light-grey">Contact Me</h2>
+    <hr style="width:1000px" class="w3-opacity">
+
+    <div class="w3-section w3-text-white">
+      <p><i class="material-icons" style="font-size:30px">place</i> Baguio City Philippines</p>
+      <p><i class="material-icons" style="font-size:30px">local_phone</i> Phone: 09107908377
+      <p><i class="material-icons" style="font-size:30px">mail</i> Email: allysamaepalawag@mail.com</p>
+    </div>
+	<br>
+	<br>
+    <br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+    <!-- Footer -->
+  <footer>
+<h6>Follow Me On Social Media:</h6>
+    <a href="https://www.facebook.com/AllysaMaeP" class= "fa fa-facebook-square" style="font-size:48px;">
+</a>
+<a href="https://www.instagram.com/allycatsu/" class="fa fa-instagram" style="font-size:48px;">
+</a>
+<a href="https://twitter.com/extinctsanity" class="fa fa-twitter-square" style="font-size:48px;">
+</a>
+  <!-- End footer -->
+  </footer>
+
+<!-- END PAGE CONTENT -->
+</div>
+
+</html>
