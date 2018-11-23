@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+/*BOXES*/
+* {
+    box-sizing: border-box;
+}
+
+/*BODY STYLE*/
+body {
+    font-family: Courier New;
+    padding: 10px;
+    background-image: url("much header.jpg");
+    background-size:cover;
+    background-repeat:no-repeat;
+}
+
+/* HEADER STYLES */
+.header {
+    padding: 30px;
+    text-align: center;
+}
+
+.header h1 {
+    font-size: 50px;
+}
+
+/* TOP NAVIGATION BAR STYLES */
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+}
+
+/* TOP NAVIGATION LINKS */
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* COLOR ON HOVER */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+    float: left;
+    width: 75%;
+}
+
+/* RIGHT COLUMN */
+.rightcolumn {
+    float: left;
+    width: 25%;
+    padding-left: 20px;
+}
+
+/* Fake image */
+.fakeimg { 
+    opacity: 1;
+    filter: alpha(opacity=1);
+    position:relative;
+    display: block;
+    width: 500%;
+    padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+    background-color:rgba(230, 230, 230,0.3);
+    padding: 20px;
+    margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* FOOTER */
+.footer {
+    clear: both;
+    position: relative;
+    z-index: 10;
+    height: 70px;
+    width= 100%;
+    margin-top: 20px;
+    text-align: center;
+    background: #ddd;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+    .leftcolumn, .rightcolumn {   
+        width: 100%;
+        padding: 0;
+    }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+    .topnav a {
+        float: none;
+        width: 100%;
+    }
+}
+
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>A BIOGRAPHY</h1>
+  <p>Informations about me</p>
+
+</div>
+
+<div class="topnav">
+  <a href="file:///Z:/Palawag,%20Allysa%20Mae%20P/Project%201/CSS.htmlHome">HOME</a>
+  <a href="file:///Z:/Palawag,%20Allysa%20Mae%20P/Project%201/CSS.htmlAbout">ABOUT</a>
+  <a href="file:///Z:/Palawag,%20Allysa%20Mae%20P/Project%201/CSS.htmlBlogs">BLOGS</a>  
+</div>
+
+<div class="row">
+  <div class="leftcolumn">
+     <div class="card">
+      <h2>PERSONAL INFORMATION</h2>
+      <div class="fakeimg">CLICK IMAGE TO SEE THE FULL VIEW OF MY RESUME</div>
+      <a href="file:///Z:/Palawag,%20Allysa%20Mae%20P/RESUME.pdf">
+        <img src="resume.png" style="width:1000px; height:1000px; ">
+      </a>
+    <div class="card">
+      <h2>INTERESTING INTERESTS</h2>
+      <h4>A GALLERY OF MY FAV THINGS</h4></div>
+</div>
+</div>
+
+  <div class="rightcolumn">
+    <div class="card">
+      <h2>Social Media</h2>
+      <p>Fololow Me:</p>
+      <a href="https://www.edmodo.com/home#">
+	<img src="ed.png" alt="Edmodo"style="width:42px;height:42px;border:0;">
+      </a>
+      <a href="https://www.facebook.com">
+        <img src="fb.png" alt="Facebook"style="width:42px;height:42px;border:0;">
+ 
+      </a>
+    </div>
+    <div class="card">
+      <h3>Popular Blogs</h3>
+      <div class="fakeimg"><p>Image</p></div>
+      <div class="fakeimg"><p>Image</p></div>
+      <div class="fakeimg"><p>Image</p></div>
+    </div>
+</div>
+
+
+<div class="footer">
+  <h2>For Inquiries and Questions</h2>
+<a href="gmail.com">allysamaepalawag@gmail.com</a>
+</div>
+
+</body>
+</html>

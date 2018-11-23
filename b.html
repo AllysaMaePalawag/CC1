@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<title>PERSONAL WEBSITE</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<style>
+body, h1,h2,h3,h4,h5,h6 {font-family: "Lucida Console", Monaco, monospace}
+.w3-row-padding img {margin-bottom: 12px}
+/* Set the width of the sidebar to 120px */
+.w3-sidebar {width: 120px;background: #222;}
+/* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
+#main {margin-left: 120px}
+/* Remove margins from "page content" on small screens */
+@media only screen and (max-width: 600px) {#main {margin-left: 0}}
+</style>
+<body class="w3-black">
+
+<!-- Icon Bar (Sidebar - hidden on small screens) -->
+<nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
+  <!-- Avatar image in top left corner -->
+
+
+  <img src="giphy.gif" alt="Mental" style="width:100%;border-radius:100%"></img>
+  <a href="#" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="material-icons" style="font-size:40px">home</i>
+    <p>HOME</p>
+  </a>
+  <a href="#about" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="material-icons" style="font-size:40px">account_circle</i>
+    <p>ABOUT</p>
+  </a>
+  <a href="#photos" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="material-icons" style="font-size:40px">local_see</i>
+    <p>PHOTOS</p>
+  </a>
+  <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="material-icons" style="font-size:40px">local_phone</i>
+    <p>CONTACT</p>
+  </a>
+</nav>
+
+<!-- Navbar on small screens (Hidden on medium and large screens) -->
+<div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
+  <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
+    <a href="#" class="w3-bar-item w3-button" style="width:25% !important">HOME</a>
+    <a href="#about" class="w3-bar-item w3-button" style="width:25% !important">ABOUT</a>
+    <a href="#photos" class="w3-bar-item w3-button" style="width:25% !important">PHOTOS</a>
+    <a href="#contact" class="w3-bar-item w3-button" style="width:25% !important">CONTACT</a>
+  </div>
+</div>
+
+<!-- Page Content -->
+<div class="w3-padding-large" id="main">
+  <!-- Header/Home -->
+  <header class="w3-container w3-padding-32 w3-center w3-black" id="home">
+    <h1 class="w3-jumbo"><span class="w3-hide-small">A SIMPLE</span> WEBSITE BIOGRAPHY</h1>
+    <p>by A BSIT Web Tech Student</p>
+    <img src="drawing-females-sketch-6.png" class="w3-image" width="500" height="700">
+    <br>
+    <i style= "color: Gray">Self Portrait</i>
+  </header>
+
+  <!-- About Section -->
+  <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="about">
+    <h2 class="w3-text-light-grey">A short information about me:</h2>
+    <hr style="width:525px" class="w3-opacity">
+    <p> I'm Allysa Mae Palawag and i am a BSIT student, studying at the University of the Cordilleras.
+    I guess you're here to know a little bit about me, huh? I'm not at all that good at talking about myself, but i'll give it a shot and add my resume.
+    </p>
+<br>
+    <h2 class="w3-padding-36 w3-text-light-grey">Interest</h2>
+    <hr style="width:150px" class="w3-opacity">
+    <p class="w3-wide">Horror, Gore, Thriller</p>
+    <div class="w3-white">
+      <div class="w3-dark-grey" style="height:28px;width:95%"></div>
+    </div>
+    <p class="w3-wide">Art, Literature</p>
+    <div class="w3-white">
+      <div class="w3-dark-grey" style="height:28px;width:85%"></div>
+    </div>
+    <p class="w3-wide">Aesthetic</p>
+    <div class="w3-white">
+      <div class="w3-dark-grey" style="height:28px;width:80%"></div>
+    </div><br>
+    
+    <form action="file:///Z:/Palawag,%20Allysa%20Mae%20P/CC1FINAL/RESUME.pdf">
+      <input type="submit" value="View Resume" />
+    </form>
+
+  <!-- Portfolio Section -->
+  <div class="w3-padding-64 w3-content" id="photos">
+    <h2 class="w3-text-light-grey">Favorite Art Works</h2>
+    <hr style="width:323px" class="w3-opacity">
+
+    <!-- Grid for photos -->
+    <div class="w3-row-padding" style="margin:0 -16px">
+      <div class="w3-half">
+        <img src="tumblr_nv38lun0T11sis4wzo1_1280.png" style="width:100%">
+        <img src="20482302_1937715946471959_7981010934980149248_n.jpg" style="width:100%">
+        <img src="18645450_305514046551931_7153774017290174464_n.jpg" style="width:100%">
+      </div>
+
+      <div class="w3-half">
+        <img src="19955609_177665346105781_3205586804585529344_n.jpg" style="width:100%">
+        <img src="1.gif" style="width:100%">
+        <img src="photo-1517778117340-f28b768ad8ed.jfif" style="width:100%">
+     
+      </div>
+    <!-- End photo grid -->
+    </div>
+  <!-- End Portfolio Section -->
+  </div>
+
+  <!-- Contact Section -->
+  <div class="w3-padding-64 w3-content w3-text-grey" id="contact">
+    <h2 class="w3-text-light-grey">Contact Me</h2>
+    <hr style="width:182px" class="w3-opacity">
+
+    <div class="w3-section">
+      <p><i class="material-icons" style="font-size:30px">place</i> Baguio City Philippines</p>
+      <p><i class="material-icons" style="font-size:30px">local_phone</i> Phone: 09107908377
+      <p><i class="material-icons" style="font-size:30px">mail</i> Email: allysamaepalawag@mail.com</p>
+    </div><br>
+  
+    <!-- Footer -->
+  <footer class="w3-content w3-padding-64 w3-text-grey w3-xlarge">
+<h6>Follow Me On Social Media:</h6>
+    <a href="https://www.facebook.com/AllysaMaeP">
+  <img src="fb.png" alt="Facebook" style="width:30px;height:30px;border:0;">
+</a>
+<a href="https://www.instagram.com/allycatsu/">
+  <img src="ins.png" alt="Instagram" style="width:40px;height:40px;border:0;">
+</a>
+<a href="https://twitter.com/extinctsanity">
+  <img src="twit.png" alt="Twitter" style="width:42px;height:42px;border:0;">
+</a>
+  <!-- End footer -->
+  </footer>
+
+<!-- END PAGE CONTENT -->
+</div>
+
+</body>
+</html>
